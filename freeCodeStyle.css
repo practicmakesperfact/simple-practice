@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #333;
+  font-family: sans-serif;
+  height: 100vw;
+}
+.container{
+  border: 2px solid #fff;
+  width: 500px;
+  /* height: 400px; */
+  padding: 30px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ border-radius: 12px;
+ 
+ 
+  
+  
+}
+#main-heading{
+  color: #fff;
+
+}
+ul{
+  background-color: #fff;
+  width: 400px;
+  height: 200px;
+  line-height: 25px;
+ 
+}
+.list-items{
+  margin-top: 10px;
+  border-bottom: 1px solid #333;
+ list-style: none;
+
+}
+
+/*event listeners*/
+#main-head{
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 10rem;
+  color: #fff;
+}
+.contain{
+ margin-top: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  height: 400px;
+  width: 600px;
+  margin-left: 20rem;
+ 
+ 
+} 
+ .boxes{
+
+  width: 400px;
+  border: 2px solid #fff;
+  align-self: center;
+  padding: 30px 0;
+  line-height: 25px;
+  line-height: 25px;
+  color: #fff; 
+}
+
+.hidden-content{
+  display: none;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+.hidden-content.reveal-btn{
+
+  display: block;
+
+}
+
+button{
+  height: 80px;
+  background-color: #333;
+  padding:10px;
+  border-radius: 6px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.good{
+  margin-left: 20px;
+  margin-top: 15px;
+  color: #fff;
+  background-color: gray;
+
+}
